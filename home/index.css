@@ -1,0 +1,35 @@
+    .bodybackground
+    {
+        background-color: #dce2ed;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        font-family:sans-serif;
+    }
+    .header
+    {
+        background: white;
+        width: 100%;
+        border-bottom: solid 1px #adabab;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        position: fixed;
+        overflow: hidden;
+    }
+    .header a 
+    {
+        text-decoration:none;
+        color: black;
+        font-weight: bold;
+        font-size: 13px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 11px;
+    }
+    .header a:hover 
+    {
+        color:#FA743E;
+        border-bottom: 3px solid #FA743E;
+    }
