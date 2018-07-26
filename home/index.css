@@ -13,7 +13,7 @@
         border-bottom: solid 1px #adabab;
         padding-left: 6%;
         padding-right: 6%;
-        padding-top: 1%;
+        padding-top: 0.8%;
         padding-bottom: 1%;
         position: fixed;
         overflow: hidden;
@@ -26,10 +26,28 @@
         font-size: 13px;
         padding-right: 20px;
         padding-left: 20px;
-        padding-bottom: 11px;
+        padding-bottom: 12px;
     }
     .header a:hover 
     {
         color:#FA743E;
         border-bottom: 3px solid #FA743E;
+    }
+    .homeIcon
+    {
+        content:url("./../image/home.png");
+        height:18px; width:18px;
+        padding-right: 4px;
+    }
+    .homeIcon:hover
+    {
+        content:url("./../image/home-filled.png");
+    }
+    .notificationIcon
+    {
+        content:url("./../image/notification.png");
+    }
+    .notificationIcon:hover
+    {
+        content:url("./../image/notification-filled.png");
     }
